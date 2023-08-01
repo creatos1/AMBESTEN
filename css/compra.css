@@ -1,0 +1,192 @@
+/* Estilo para el cuerpo del documento */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para el contenedor principal */
+  .container-main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo para el contenedor que rodea las selecciones */
+  .selections-container {
+    flex: 1;
+    background-color: #002f66;
+    border: 5px solid rgb(0, 234, 255);
+    padding: 5%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: 10px;
+    font-size: 0.5em;
+    text-align: center;
+  }
+  
+  /* Estilo para el contenedor de la imagen */
+  .image-container {
+    flex: 1;
+    background-color: #002f66;
+    border: 5px solid rgb(0, 234, 255);
+    padding: 3%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: 10px;
+  }
+  
+  /* Estilo para las etiquetas y selecciones */
+  .selections-container label,
+  .selections-container select {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* Estilo específico para las selecciones */
+  .selections-container select {
+    width: 300px;
+    border-radius: 30px;
+    background-color: #008ED5;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ffffff;
+    font-size: 3em;
+  }
+  
+  /* Estilo para la imagen */
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Estilo para el banner (ajustar según tu diseño) */
+  .banner_main {
+    background-image: url(/images/ll.png);
+    padding: 30px;
+  }
+  
+  /* Estilo para el header (ajustar según tu diseño) */
+  .header {
+    background-color: #000000;
+    padding: 10px;
+  }
+  
+  /* Estilo para el footer (ajustar según tu diseño) */
+  .footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo para las ubicaciones (ajustar según tu diseño) */
+  .location_icon {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Estilo para los íconos (ajustar según tu diseño) */
+  .location_icon li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  /* Estilo para los enlaces del menú (ajustar según tu diseño) */
+  .navbar-nav .nav-link {
+    padding: 5px 10px;
+  }
+  
+  /* Media query para pantalla horizontal */
+  @media screen and (orientation: portrait) {
+    .container-main {
+      flex-direction: column; /* Cambia la dirección de los elementos a vertical */
+    }
+  
+    .image-container,
+    .selections-container {
+      flex-basis: 100%; /* Ocupa todo el ancho de la pantalla */
+    }
+  }
+
+  .footer {
+    background: #00011c;
+    padding-top: 90px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul.location_icon {
+    text-align: center;
+}
+
+ul.location_icon li {
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    color: #00ccff;
+    text-align: center;
+    padding: 0 40px;
+}
+
+ul.location_icon li a {
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 30px;
+    display: block;
+}
+
+.copyright {
+    margin-top: 80px;
+    padding-bottom: 20px;
+    background: #000000;
+}
+
+.copyright p {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: normal;
+}
+
+.copyright a {
+  color: #00ccff;
+}
+
+.copyright a:hover {
+    color: #ff0000;
+}
+
+
+
+.cerrarsesion{
+  font-size: 1.3em;;
+  margin: 10px;
+  max-width: 170px;
+  min-width: 100px;
+  width: 170px;
+  height: 50px;
+  background-color: #008ED5;
+  color: #fff;
+  border-radius: 40px;
+}
+
+.cerrarsesion:hover{
+  font-size: 1.2em;
+  margin: 10px;
+  width: 170px;
+  height: 60px;
+  background-color: #002f66;
+  color: #fff;
+  border-radius: 40px;
+  transition: 0.3s;
+}
